@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:maat/features/auth/login_screen.dart';
+import 'package:maat/features/auth/presentation/login_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MaatApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MaatApp extends StatelessWidget {
+  const MaatApp({super.key});
 
   // This widget is the root of your application.
   @override
